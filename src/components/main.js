@@ -5,11 +5,11 @@ function Main(props) {
    let buttonText,aboutmeText
     if (props.Language === "Español"){
       buttonText= "English"
-      aboutmeText="About Me"
+      aboutmeText="Acerca de"
     }
     else {
       buttonText="Español"
-      aboutmeText="Acerca de"
+      aboutmeText="About me"
     }
   
   return (

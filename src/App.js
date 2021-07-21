@@ -22,7 +22,7 @@ function App() {
   const Ornetto = ornetto
   let [Language,setLanguage] = useState("Español")
   const Spanishtext=["Desarrollo Junior Frontend y Backend","Hola, mi nombre es Daniel Leonardo Cobos, Soy Estudiante de Ingenieria Catastral y Geodesia en proceso de grado","Mis Proyectos"]
-  const Englishtext=["Backend and Frontend Junior Developer","Hello, i am Daniel Cobos, Geodesy and Cadastral Engineering student on thessis process","My Projects"]
+  const Englishtext=["Backend and Frontend Junior Developer","Hello, I am Daniel Cobos, Geodesy and Cadastral Engineering student on thesis process","My Projects"]
   const [proyectosRender,setproyectosRender] = useState(proyectos.proyectos)
   const [habilidadesRender,setHabilidadesRender] = useState(habilidades.Habilidades)
   const [Maintext,setMaintext] = useState(Spanishtext)
@@ -52,7 +52,10 @@ function App() {
   
   return (
     <Main changeLanguage={changeLanguage} Language={Language}>
-    <Route path="/main">
+    <Route exact path="/aboutme" >
+        <Aboutme text={Aboutmetext} Language={Language} media={aboutmejson.Socialmedia}/>
+    </Route>
+    <Route exact path="/">
         
       <div className="intro">
         <h1> {Maintext[0]}</h1>
@@ -70,9 +73,7 @@ function App() {
       </div>
       
     </Route>
-    <Route path="/aboutme" >
-        <Aboutme text={Aboutmetext} Language={Language} media={aboutmejson.Socialmedia}/>
-    </Route>
+    
     <Route  path="/nose">
         <Minidemos/>
     </Route>

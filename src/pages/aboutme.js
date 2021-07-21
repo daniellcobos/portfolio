@@ -19,6 +19,7 @@ const Aboutme = (props) =>{
         <div>
             <h4>  <a href={props.media.Youtube}>Youtube, In Spanish</a> </h4>
             <h4><a href={props.media.Linkedin}> Linkedin</a></h4>
+            <h4><a href={props.media.Github}> Github</a></h4>
         </div>
     </div>)
 }
