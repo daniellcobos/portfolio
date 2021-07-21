@@ -20,8 +20,29 @@
             "web" :"https://Ornetto.com",
             "image":"{Ornetto}"
         }
+    ],
+           "proyects": [ {
+            "name": "Dippi",
+            "descripcion":"A site where you can do mock orders and calculate the price of a Dish according to Colombian Prices obtained from an API i made from a web scrapper, but its outdated since they changed the website to a private API ",
+            "stack": ["API","Django","Angular","Django-Rest-Framework","Bulma"],
+            "web" :"https://recetario-52762.web.app/",
+            "image":"{Dippi}"
+        },
+        {
+            "name": "Cuarentenapp",
+            "descripcion":"The final Project of my SIG Interface programming course in Universidad Distrital, its an openlayers.js site that showed the open sites back in the first 2020 quarantine",
+            "stack": ["Openlayers","Vanilla Javascript","Geojson"],
+            "web" :"https://testcuarenteapp.000webhostapp.com/",
+            "image":"{Cuarentenapp}"
+        },
+        {
+            "name": "Ornetto.Com",
+            "descripcion":"A real restaurant with a quite big menu, the site its made in JAMstack",
+            "stack": ["Gatsby.js","Netlify CMS","graphQL"],
+            "web" :"https://Ornetto.com",
+            "image":"{Ornetto}"
+        }
     ]
-       
     
 
     

@@ -1,4 +1,5 @@
-const Minidemos = () =>{
+const Minidemos = (props) =>{
+    
     return(<div>
         <p> Demos Absurdas</p>
     </div>)

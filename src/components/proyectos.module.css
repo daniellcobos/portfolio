@@ -1,19 +1,20 @@
 .stackstyle{
 background-color: rgb(17, 17, 20);
 color:whitesmoke;
-margin: 5px 0.5rem ;
+margin-right: 0.5rem;
 
 padding: 3px;
 font-size: 12px;
 }
 .mainstyle{
     height: 300px;
-    display: inline-block;
+    display: inline-flex;
     background-color: rgb(241, 239, 239);
     margin-top: 1rem;
     width: 80%;
     padding: 1rem 2rem;
     margin-left: 1rem;
+    justify-content: space-evenly;
 }
 
 .images{
@@ -21,6 +22,8 @@ font-size: 12px;
     max-height: 200px;
 }
 .desc{
+    padding-left: 1rem;
+    margin-top: 2rem;
     float: right;
     text-align: left;
     width: 500px;

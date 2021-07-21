@@ -1,8 +1,17 @@
 import React from "react"
-import {head, foot,main,left,right,logo} from "./main.module.css"
+import {head, foot,main,left,right,logo,language} from "./main.module.css"
 import {NavLink} from "react-router-dom";
 function Main(props) {
- 
+   let buttonText,aboutmeText
+    if (props.Language === "Español"){
+      buttonText= "English"
+      aboutmeText="About Me"
+    }
+    else {
+      buttonText="Español"
+      aboutmeText="Acerca de"
+    }
+  
   return (
       <main className={main}>
     <header className={head}>
@@ -11,16 +20,16 @@ function Main(props) {
        </div>
        <div className={right}>
         
-            <NavLink  to="/aboutme" >Acerca de Mi</NavLink> 
-             <NavLink  to="/minidemos" >Minidemos</NavLink> 
+            <NavLink  to="/aboutme" >{aboutmeText}</NavLink> 
+             
          
-          <span> En ingles</span>
+         <button className={language} onClick={props.changeLanguage} >{buttonText}</button> 
        </div>
       
     </header>
     {props.children}
     <footer className={foot}>
-        Esto seria el footer
+        Made by Daniel Cobos, on React
     </footer>
     
       </main>

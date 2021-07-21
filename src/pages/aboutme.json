@@ -1,0 +1,15 @@
+{
+    "aboutmespanish":{
+        "bio":"Soy Daniel Leonardo Cobos, Estudiante de la carrera Ingenieria Catastral y Geodesia de la universidad Distrital Francisco Jose de Caldas. Tambien hice 2 semestres de Ingenieria de Sistemas en la misma universidad a los 15 años pero no estaba listo entonces y no pude continuar. Vivo en Bogota y me interesan tanto la programacion como las ciencias de la tierra, por lo que mi trabajo ideal seria en el area de geomatica, pero debido a la escasez de programadores decidi que era mejor especializarse en desarrollo web, por lo que decidi combinar las bases lo que vi en educacion formal con cursos de Udemy y aprendizaje propio",
+        "capacidades": ["Educacion Formal: Programacion Basica, OOP, Bases de Datos, Bases de datos Geograficas, C++,Java,Javascript,Openlayers,R, ArcGIS,QGIS","Educacion en Linea (usualmente Udemy): Javascript intermedio,Python,Django,Angular,React"]
+    },
+    "aboutmeEnglish":{
+        "bio":"I am Daniel Leonardo Cobos, Student on the Cadastral Engineering and Geodesy program from Universidad Distrital Francisco Jose de Caldas. I started a systems engineering program too but i didnt finish it. Im from Bogota,Colombia and i have interest on programming, pro gaming, developing and earth sciences, but its not popular on Colombia so i realized i could find jobs more easily just doing Web Development, for this purpose i combined both my formal university education and a bunch of very good udemy courses, together with self-learning",
+        "capacidades": ["Formal Education: Basic Programming (not in Basic), OOP,Databases, Geographic Databases, C++,Java,Javascript,Openlayers,R, ArcGIS,QGIS","Online Courses (mostly Udemy) :Intermediate Javascript,Python,Django,Angular,React"]
+    },
+    "Socialmedia":
+    {
+        "Linkedin":"https://www.linkedin.com/in/daniel-leonardo-cobos-prada-52315211a/",
+        "Youtube":"https://www.youtube.com/channel/UCyQlYDqQHIQE61x6fJ4ZBaA" 
+    }
+}
