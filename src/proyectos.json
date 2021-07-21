@@ -1,0 +1,28 @@
+{
+    "proyectos": [ {
+            "name": "Dippi",
+            "descripcion":" Un sitio falso que usa backend realizado en Django para hacer pedidos de restaurantes, y para crear recetas con un adicional de calculo de costos que era obtenido de un webscrape del sitio de corabastos, ya no sirve debido a que corabastos implemento una api privada",
+            "stack": ["API","Django","Angular","Django-Rest-Framework","Bulma"],
+            "web" :"https://recetario-52762.web.app/",
+            "image":"{Dippi}"
+        },
+        {
+            "name": "Cuarentenapp",
+            "descripcion":"Proyecto final de Programacion de Interfaces SIG en la universidad distrital, Buscaba establecimientos abiertos en la localidad de Chapinero para la primera cuarentena de 2020",
+            "stack": ["Openlayers","Vanilla Javascript","Geojson"],
+            "web" :"https://testcuarenteapp.000webhostapp.com/",
+            "image":"{Cuarentenapp}"
+        },
+        {
+            "name": "Ornetto.Com",
+            "descripcion":"Sitio web de un restaurante con un menu un poco numeroso",
+            "stack": ["Gatsby.js","Netlify CMS","graphQL"],
+            "web" :"https://Ornetto.com",
+            "image":"{Ornetto}"
+        }
+    ]
+       
+    
+
+    
+}
