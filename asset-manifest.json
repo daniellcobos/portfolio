@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.75ccda71.chunk.css",
+    "main.js": "/portfolio/static/js/main.925a276b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.925a276b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.033e74e9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.033e74e9.js.map",
+    "static/js/2.bc8166ba.chunk.js": "/portfolio/static/js/2.bc8166ba.chunk.js",
+    "static/js/2.bc8166ba.chunk.js.map": "/portfolio/static/js/2.bc8166ba.chunk.js.map",
+    "static/js/3.fd9bedda.chunk.js": "/portfolio/static/js/3.fd9bedda.chunk.js",
+    "static/js/3.fd9bedda.chunk.js.map": "/portfolio/static/js/3.fd9bedda.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.75ccda71.chunk.css.map": "/portfolio/static/css/main.75ccda71.chunk.css.map",
+    "static/js/2.bc8166ba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bc8166ba.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/Azeroth.2214808f.jpg",
+    "static/media/Cuarentenapp.PNG": "/portfolio/static/media/Cuarentenapp.dddb9483.PNG",
+    "static/media/Dippi.PNG": "/portfolio/static/media/Dippi.febfb02d.PNG",
+    "static/media/Ornetto.PNG": "/portfolio/static/media/Ornetto.ccafc925.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.033e74e9.js",
+    "static/js/2.bc8166ba.chunk.js",
+    "static/css/main.75ccda71.chunk.css",
+    "static/js/main.925a276b.chunk.js"
+  ]
+}
