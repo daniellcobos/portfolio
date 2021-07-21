@@ -16,7 +16,7 @@ function Main(props) {
       <main className={main}>
     <header className={head}>
        <div className={left}>
-        <NavLink  className={logo}  to="/main"><h1 >Daniel Cobos</h1></NavLink>
+        <NavLink  className={logo}  to="/"><h1 >Daniel Cobos</h1></NavLink>
        </div>
        <div className={right}>
         

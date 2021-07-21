@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './App.css';
 import Main from './components/main'
-import {Route} from 'react-router-dom';
+import {Redirect, Route} from 'react-router-dom';
 import proyectos from './proyectos.json'
 import Proyectos from './components/proyectos';
 import cuarentenapp from './images/Cuarentenapp.PNG'
@@ -52,10 +52,13 @@ function App() {
   
   return (
     <Main changeLanguage={changeLanguage} Language={Language}>
+      <Route exact path ="/">
+        <Redirect to="/portfolio/" />
+      </Route>
     <Route exact path="/aboutme" >
         <Aboutme text={Aboutmetext} Language={Language} media={aboutmejson.Socialmedia}/>
     </Route>
-    <Route exact path="/">
+    <Route exact path="/portfolio/">
         
       <div className="intro">
         <h1> {Maintext[0]}</h1>
